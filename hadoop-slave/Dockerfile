@@ -12,7 +12,7 @@
 #
 # Creates multi node hadoop cluster on Docker
 
-FROM lewuathe/hadoop-base:latest
+FROM itomaldonado/hadoop-base:latest
 MAINTAINER lewuathe
 
 ADD bootstrap.sh /etc/bootstrap.sh

@@ -1,6 +1,12 @@
 <configuration>
     <property>
-        <name>mapreduce.framework.name</name>
+        <name>mapred.job.tracker</name>
+        <value>master:8021</value>
+    </property>
+
+    <property> 
+        <name>mapreduce.framework.name</name> 
         <value>yarn</value>
     </property>
+
 </configuration>

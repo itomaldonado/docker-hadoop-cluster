@@ -8,7 +8,8 @@ all:
 
 run:
 	docker-compose up -d
-	echo "http://localhost:9870 for HDFS"
+	# echo "http://localhost:9870 for HDFS"
+	echo "http://localhost:50070 for HDFS"
 	echo "http://localhost:8088 for YARN"
 
 down:
